@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-12">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Lobster&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>REGISTER</title>
+    <style>
+     /* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+.container2{
+    position: relative;
+    max-width: 90vw;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: whitesmoke;
+    
+}
+.details p{
+    text-align: center;
+    display: table-row;
+    color: #070A52;
+    font-size: larger;
+    font-weight: 900;
+    
+}
+.container2 header{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.container2 form{
+    position: relative;
+    min-height: 490px;
+    background-color: whitesmoke;
+    overflow: hidden;
+    display: table;
+    padding: 2vw;
+    text-align: left;
+
+}
+
+.container2 form .fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: table-cell;
+}
+.title1{
+    color: #2e2e2e;
+    font-weight: 700;
+    font-size: larger;
+}
+.input-field label{
+    font-size: large;
+    font-weight: 600;
+    color: #2e2e2e;
+    text-align: left;
+    margin-right: 3vw;
+    display: table-cell;
+}
+.input-field input,.input-field select ,option{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 2vh 0;
+    margin-right: 5.5vw;
+    width: 300px;
+}
+.input-field input :focus,
+.input-field select:focus{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.13);
+}
+.input-field select,
+.input-field input[type="date"]{
+    color: #707070;
+}
+.input-field input[type="date"]:valid{
+    color: #333;
+}
+.container2 form .nextBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin: 25px 0;
+    background-color: #070A52;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    text-decoration: none;
+}
+.start{
+    color: red;
+}
+.form .details .title1{
+    color: #2e2e2e;
+    text-align: left;
+}
+
+
+@media (max-width: 750px) {
+    .container2 form{
+        overflow-y: scroll;
+    }
+    .container2 form::-webkit-scrollbar{
+       display: none;
+    }
+    form .fields .input-field{
+        width: calc(100% / 2 - 15px);
+    }
+}
+
+@media (max-width: 550px) {
+    form .fields .input-field{
+        width: 100%;
+    }
+}
+.container2 form .nextBtn:hover{
+    transition: linear;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.par {                           /*bg parallax*/
+  text-align: center; 
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(4,9,30,.7),rgba(4,9,30,.7)), url('https://www.lullabytrust.org.uk/wp-content/uploads/Conference-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  /* this is where the magic happens: */
+  background-attachment: fixed;
+}
+.exp{                       /*expansion*/
+    letter-spacing: -1px;
+    font-size: 50pt;
+    transition: 700ms ease;
+    text-indent: 50px;
+    text-align: center;
+    font-variation-settings: "wght" 311;
+  }
+  .exp:hover{
+      font-variation-settings: "wght" 582; 
+      letter-spacing: 2px;
+  }
+    </style>
+    </style>
+</head>
+<body >
+    <div class="par">
+      <div class="container" id="container">
+        <div class="ticker">
+          <div class="title"><h5>Conferences!</h5></div>
+            <div class="news">
+              <marquee onmouseover="this.stop();" onmouseout="this.start();">
+                <p>
+                 <a href="#" target="" >Conference 1</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 2</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 3</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 4</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 5</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 6</a>&emsp;&emsp;
+                </p>
+              </marquee>
+            </div>
+          </div>
+        </div>
+        <div id="head">;
+          <h1 id="clgheader"> <a href="cm.html">CMS</a></h1>
+          <div class="topnav" id="myTopnav">
+            <div class="dropdown">
+            <a class="dropbtn" href="cm.html">ABOUT </i></a>
+            </div>
+            <div class="dropdown">
+            <button class="dropbtn">CONFERENCES</button>
+            </div>
+            <div class="dropdown">
+                <a class="dropbtn" href="">PAPERS</a>
+              </div>
+              <div class="dropdown">
+                <a class="dropbtn" href="register.html">REGISTER </i></a>
+              </div>
+              <div class="dropdown">
+              <a class=" dropbtn" href="login.html">LOGIN</a>
+              </div>
+              <div class="dropdown">
+              <a class="dropbtn " href="contact.html" >CONTACT</a>
+              </div>
+          </div>
+        </div>
+    <div class="name">
+      <h1 class="exp" >REGISTRATION</h1><br>
+    </div></div><br><br>
+        <center>
+            <div class="container2">
+               <p class="title1" style="font-size: xx-large;"> Register New Conference</p>
+                <form action="reg.php" method="post">
+                    <div class="form first">
+                        <div class="details address">
+                            <p class="title">Organizer Details</p>
+                            <br>
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Organizer Name<span class="start">*</span> </label>
+                                    <input type="text" placeholder="Enter your Name" name="org_name" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Email<span class="start">*</span> </label>
+                                    <input type="email" placeholder="Enter your Email" name="email" required>
+                                </div>
+                            </div>
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Date of Birth<span class="start">*</span> </label>
+                                    <input type="date" placeholder="Enter your Date of Birth" name="dob" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>State<span class="start">*</span> </label>
+                                    <input type="text" placeholder="Enter your state" name="state"  required>
+                                </div>
+                            </div>
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Contact Number<span class="start">*</span> </label>
+                                    <input type="number" placeholder="Enter contact number" name="number"  required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>City<span class="start">*</span> </label>
+                                    <input type="text" placeholder="Enter your city" name="city" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="details ID"><br>
+                            <p class="title">Conference Details</p><br>
+                                    <div class="fields">
+                                        <div class="input-field">
+                                            <label>Conference Category<span class="start">*</span> </label>
+                                            <select name="con_category" required>
+                                                <option value="">Select</option>
+                                                <option value="52-Nanotechnology">Nanotechnology</option>
+                                                 <option value="51-Human Resources">Human Resources</option>
+                                                 <option value="50-Banking and Finance">Banking and Finance</option>
+                                                 <option value="49-Engineering">Engineering</option>
+                                                 <option value="48-Renewable Energy">Renewable Energy</option>
+                                                 <option value="47-Artificial Intelligence">Artificial Intelligence</option>
+                                                 <option value="46-Robotics">Robotics</option>
+                                                 <option value="45-Computer Science">Computer Science</option>
+                                                 <option value="44-Electronics and Electrical">Electronics and Electrical</option>
+                                                 <option value="43-Sports">Sports</option>
+                                                 <option value="42-Water">Water</option>
+                                                 <option value="41-Meteorology">Meteorology</option>
+                                                 <option value="40-Astronomy">Astronomy</option>
+                                                 <option value="39-Oceanography">Oceanography</option>
+                                                 <option value="38-Philosophy">Philosophy</option>
+                                                 <option value="37-Religious Studies">Religious Studies</option>
+                                                 <option value="36-Poetry">Poetry</option>
+                                                 <option value="35-Psychology">Psychology</option>
+                                                 <option value="34-Literature">Literature</option>
+                                                 <option value="33-Politics">Politics</option>
+                                                 <option value="32-Anthropology">Anthropology</option>
+                                                 <option value="31-Arts">Arts</option>
+                                                 <option value="30-History">History</option>
+                                                 <option value="29-English">English</option>
+                                                 <option value="28-African Studies">African Studies</option>
+                                                 <option value="27-American Studies">American Studies</option>
+                                                 <option value="26-European Studies">European Studies</option>
+                                                 <option value="25-Asian Studies">Asian Studies</option>
+                                                 <option value="24-Earth Sciences">Earth Sciences</option>
+                                                 <option value="23-Culture">Culture</option>
+                                                 <option value="22-Tourism">Tourism</option>
+                                                 <option value="21-Spirituality">Spirituality</option>
+                                                 <option value="20-Agriculture">Agriculture</option>
+                                                 <option value="19-Statistics">Statistics</option>
+                                                 <option value="18-Life Sciences">Life Sciences</option>
+                                                 <option value="17-Medicine and Medical Science">Medicine and Medical Science</option>
+                                                 <option value="16-Law">Law</option>
+                                                 <option value="15-Business and Economics">Business and Economics</option>
+                                                 <option value="14-Health">Health</option>
+                                                 <option value="13-Education">Education</option>
+                                                 <option value="12-Social Sciences">Social Sciences</option>
+                                                 <option value="11-Communications and Media">Communications and Media</option>
+                                                 <option value="10-Mathematics">Mathematics</option>
+                                                 <option value="9-Physics">Physics</option>
+                                                 <option value="8-Biotechnology">Biotechnology</option>
+                                                 <option value="7-Information Technology">Information Technology</option>
+                                                 <option value="6-Environment">Environment</option>
+                                                 <option value="5-Sustainable Development">Sustainable Development</option>
+                                                 <option value="4-Science Communication">Science Communication</option>
+                                                 <option value="3-Biology">Biology</option>
+                                                 <option value="2-Chemistry">Chemistry</option>
+                                                 <option value="1-Science & Technology">Science & Technology</option>
+                  
+                                        </select> 
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label>Organization Name<span class="start">*</span> </label>
+                                            <input type="text" placeholder="Enter organization Name" name="organ_name" required>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="fields">
+                                        <div class="input-field">
+                                            <label>Conference Theme<span class="start">*</span> </label>
+                                            <input type="text" placeholder="Enter conference theme*" name="con_theme"  required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label>Name of Conference<span class="start">*</span> </label>
+                                            <input type="text" placeholder="Name of conference" name="con_name" required>
+                                        </div>
+                                    </div>
+                                    <div class="fields">
+                                        <div class="input-field">
+                                            <label>From Date<span class="start">*</span> </label>
+                                            <input type="date" placeholder="Enter Start date" name="from_date" required>
+                                        </div>
+                
+                                        <div class="input-field">
+                                            <label>To Date<span class="start">*</span> </label>
+                                            <input type="date" placeholder="Enter End date" name="to_date" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                        <div class="details address"><br>
+                            <p class="title">Address Details</p><br>
+        
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Name of Venue<span class="start">*</span> </label>
+                                    <input type="text" placeholder="Enter Name of Venue*" name="venue" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Address of Venue<span class="start">*</span> </label>
+                                    <input type="text" placeholder="Enter Address of Venue" name="v_addr" required>
+                                </div>
+                            </div>
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>City<span class="start">*</span> </label>
+                                    <input type="text" placeholder="Enter your City" name="v_city" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Country<span class="start">*</span> </label>
+                                    <input type="text" placeholder="Enter your Country" name="v_country"  required>
+                                </div>
+                            </div>
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Name of Organizer/ Association<span class="start">*</span> </label>
+                                    <input type="text" placeholder="Enter Name of Organizer/ Association" name="organizer" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>State</label>
+                                    <input type="text" placeholder="Enter the State" name="v_state" >
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="details family"><br>
+                            <p class="title">Contact Details</p><br>
+        
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Contact Person<span class="start">*</span> </label>
+                                    <input type="text" placeholder="Enter Contact Person name" name="c_person" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Contact Number<span class="start">*</span> </label>
+                                    <input type="text" placeholder="Enter Contact Number" name="c_number" required>
+                                </div>
+                            </div>
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Email<span class="start">*</span> </label>
+                                    <input type="email" placeholder="Enter Email ID" name="c_email" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Website<span class="start">*</span> </label>
+                                    <input type="text" placeholder="Enter Website" name="c_web" required>
+                                </div>
+                            </div>
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Deadline For Abstracts/Proposals </label>
+                                    <input type="text" placeholder="Enter Deadline For Abstracts/Proposals" name="abs">
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Short Description Of Event</label>
+                                    <input type="text" placeholder="Short Description Of Event" name="short_desc">
+                                </div>
+                            </div><br>
+                            <input type="checkbox" name="agreement" value="checked" required> I/We accept <a href="">Terms & Conditions </a>and <a href="">Privacy Policy </a>
+                           
+                           <center><button class="nextBtn" href="#" type="submit">
+                              <span class="btnText">Submit</span>
+                           </button></center> 
+                            </div>
+                        </div> 
+                    </div>
+                </form>
+            </div><br><br>
+            </center>
+            <script src="script.js"></script>
+        </body>
+        </html>
+    </div>
+  </div>
+  <div class="footer">
+    <div id="con">
+      <h3><a href="#" target="" ><i class="fa-brands fa-youtube"></i> Youtube</a></h3>
+      <h3><a href="#" target="" ><i class="fa-brands fa-square-instagram"></i> Instagram</a></h3>
+      <h3><a href="#" target="" ><i class="fa-brands fa-linkedin"></i> Linkedin</a></h3>
+      <h3><a href="#" target="" ><i class="fa-brands fa-facebook"></i> Facebook</a></h3>
+      <h3><a href="#" target="" ><i class="fa-brands fa-twitter"></i> Twitter</a></h3>
+    </div>
+    <div id="foot">
+      <h4 id="add">363, Arcot Road, Kodambakkam, Chennai - 24</h4>
+      <h5>&copy; 2023 All rights Reserved | Page Designed For the Competition</h5>
+    </div>
+  </div>
+</body>
+</html>

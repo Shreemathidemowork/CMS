@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-12">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Lobster&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>LOGIN</title>
+    <style>
+.exp{                       /*expansion*/
+    font-size: 50pt;
+  }
+  #form{
+    margin: 0 20vw;
+    
+  }
+ #form #ac,#role{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+  }
+input,#submit,#role{
+    padding: 2vh;
+    width: 20vw;
+    border-radius: 9vw;
+    border-color: white;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+}
+#submit:hover{
+    transition: linear;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+input:hover,#role:hover{
+  border-color: black;
+}
+::placeholder{
+  color: white;
+  text-align: left;
+  font-size: larger;
+}
+
+</style>
+    </style>
+</head>
+<body >
+    <div class="par">
+      <div class="container" id="container">
+        <div class="ticker">
+          <div class="title"><h5>Conferences!</h5></div>
+            <div class="news">
+              <marquee onmouseover="this.stop();" onmouseout="this.start();">
+                <p>
+                 <a href="#" target="" >Conference 1</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 2</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 3</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 4</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 5</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 6</a>&emsp;&emsp;
+                </p>
+              </marquee>
+            </div>
+          </div>
+        </div>
+        <div id="head">;
+          <h1 id="clgheader"> <a href="cm.html">CMS</a></h1>
+          <div class="topnav" id="myTopnav">
+            <div class="dropdown">
+            <a class="dropbtn" href="cm.html">ABOUT</a>
+            </div>
+            <div class="dropdown">
+            <a class="dropbtn" href="">CONFERENCES</a>
+            </div>
+            <div class="dropdown">
+              <a class="dropbtn" href="">PAPERS</a>
+            </div>
+            <div class="dropdown">
+              <a class="dropbtn" href="register.html">REGISTER </i></a>
+            </div>
+            <div class="dropdown">
+            <a class=" dropbtn" href="login.html" >LOGIN</a>
+            </div>
+            <div class="dropdown">
+            <a class="dropbtn " href="contact.html" >CONTACT</a>
+            </div>
+          </div>
+        </div>
+        <div class="name">
+          <h1 class="exp" >USER &emsp14;LOGIN</h1><br>
+        </div>
+        <center>
+        <form id="form" action="" method=""> 
+            <input type="text" id="fname" placeholder="Username" required><br><br>
+            <input type="password" id="pw" placeholder="Password" required><br><br>
+            <input type="text" name="role" list="role" class="role" placeholder="Role">
+              <datalist id="role">
+              <option value="User">
+              <option value="Organizer">
+              </datalist><br><br><br>
+            <input type="submit" title="LOGIN" id="submit" value="LOGIN" style="color: black;font-size: large;background-color: whitesmoke;border:2px solid white;">
+            <br><br><a id="ac" href="#">Don't have an account?</a>
+          </form>
+      </center>
+    </div>
+  </div>
+  <div class="footer">
+    <div id="con">
+      <h3><a href="#" target="" ><i class="fa-brands fa-youtube"></i> Youtube</a></h3>
+      <h3><a href="#" target="" ><i class="fa-brands fa-square-instagram"></i> Instagram</a></h3>
+      <h3><a href="#" target="" ><i class="fa-brands fa-linkedin"></i> Linkedin</a></h3>
+      <h3><a href="#" target="" ><i class="fa-brands fa-facebook"></i> Facebook</a></h3>
+      <h3><a href="#" target="" ><i class="fa-brands fa-twitter"></i> Twitter</a></h3>
+    </div>
+    <div id="foot">
+      <h4 id="add">363, Arcot Road, Kodambakkam, Chennai - 24</h4>
+      <h5>&copy; 2023 All rights Reserved | Page Designed For the Competition</h5>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

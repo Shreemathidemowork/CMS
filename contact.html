@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-12">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Sans&family=Lobster&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CONTACT</title>
+    <style>
+     /* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+.container2{
+    position: relative;
+    max-width: 90vw;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 5px;
+    background-color: whitesmoke;
+    
+}
+.details p{
+    text-align: center;
+    display: table-row;
+    color: #070A52;
+    font-size: larger;
+    font-weight: 900;
+    
+}
+.container2 header{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.container2 form{
+    position: relative;
+    min-height: 60vh;
+    background-color: whitesmoke;
+    overflow: hidden;
+    display: table;
+    padding: 2vw;
+    text-align: left;
+
+}
+#conf_email{
+    text-decoration: none;
+}
+#conf_email:hover{
+    color: red;
+}
+.container2 form .fields{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: table-cell;
+}
+.title1{
+    color: #2e2e2e;
+    font-weight: 700;
+    font-size: larger;
+}
+.input-field label,.addr{
+    font-size: large;
+    font-weight: 600;
+    color: #2e2e2e;
+    text-align: left;
+    margin-right: 3vw;
+    
+}
+.input-field input,.input-field select ,option,textarea{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: 0 15px;
+    height: 42px;
+    margin: 5vh 0;
+    margin-right: 5.5vw;
+    width: 300px;
+}
+.input-field input:hover,.input-field select:hover ,option:hover,textarea:hover{
+    border-color: #070A52;
+}
+.input-field select,
+.input-field input[type="date"]{
+    color: #707070;
+}
+.input-field input[type="date"]:valid{
+    color: #333;
+}
+.container2 form .nextBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 5vh;
+    background-color: #070A52;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    text-decoration: none;
+}
+.container2 form .nextBtn:hover{
+    transition: linear;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.start{
+    color: red;
+}
+.form .details .title1{
+    color: #2e2e2e;
+    text-align: left;
+}
+.addr{
+    text-align: left;
+
+}
+
+@media (max-width: 750px) {
+    .container2 form{
+        overflow-y: scroll;
+    }
+    .container2 form::-webkit-scrollbar{
+       display: none;
+    }
+    form .fields .input-field{
+        width: calc(100% / 2 - 15px);
+    }
+}
+
+@media (max-width: 550px) {
+    form .fields .input-field{
+        width: 100%;
+    }
+}
+.par {                           /*bg parallax*/
+  text-align: center; 
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(4,9,30,.7),rgba(4,9,30,.7)), url('https://www.lullabytrust.org.uk/wp-content/uploads/Conference-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  /* this is where the magic happens: */
+  background-attachment: fixed;
+}
+.exp{                       /*expansion*/
+    letter-spacing: -1px;
+    font-size: 50pt;
+    transition: 700ms ease;
+    text-indent: 50px;
+    text-align: center;
+    font-variation-settings: "wght" 311;
+  }
+  .exp:hover{
+      font-variation-settings: "wght" 582; 
+      letter-spacing: 2px;
+  }
+    </style>
+    </style>
+</head>
+<body >
+    <div class="par">
+      <div class="container" id="container">
+        <div class="ticker">
+          <div class="title"><h5>Conferences!</h5></div>
+            <div class="news">
+              <marquee onmouseover="this.stop();" onmouseout="this.start();">
+                <p>
+                 <a href="#" target="" >Conference 1</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 2</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 3</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 4</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 5</a>&emsp;&emsp;
+                 <a href="#" target="" >Conference 6</a>&emsp;&emsp;
+                </p>
+              </marquee>
+            </div>
+          </div>
+        </div>
+        <div id="head">;
+          <h1 id="clgheader"> <a href="cm.html">CMS</a></h1>
+          <div class="topnav" id="myTopnav">
+            <div class="dropdown">
+            <a class="dropbtn" href="cm.html">ABOUT </i></a>
+            </div>
+            <div class="dropdown">
+            <button class="dropbtn">CONFERENCES</button>
+            </div>
+            <div class="dropdown">
+                <a class="dropbtn" href="">PAPERS</a>
+              </div>
+              <div class="dropdown">
+                <a class="dropbtn" href="register.html">REGISTER </i></a>
+              </div>
+              <div class="dropdown">
+              <a class=" dropbtn" href="login.html">LOGIN</a>
+              </div>
+              <div class="dropdown">
+              <a class="dropbtn " href="contact.html" >CONTACT</a>
+              </div>
+          </div>
+        </div>
+    <div class="name">
+      <h1 class="exp" >CONTACT</h1><br><br>
+    </div></div><br><br>
+        <center>
+            <div class="container2">
+               <p class="title1" style="font-size: xx-large;">Contact Us</p>
+                <form action="#">
+                    <div class="form first">
+                        <div class="details address">
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Full Name<span class="start">*</span> </label>
+                                    <input type="text" placeholder="Enter your Name" required>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Email<span class="start">*</span> </label>
+                                    <input type="email" placeholder="Enter your Email" required>
+                                </div>
+                                
+                            </div>
+                            <div class="fields">
+                                <div class="input-field">
+                                    <label>Query<span class="start">*</span> </label>
+                                    <select required>
+                                        <option value="select">Select</option>
+                                        <option value="enq">Enquiry</option>
+                                        <option value="conf">Conference</option>
+                                        <option value="fb">Feedback</option>
+                                        <option value="sup">Support</option>
+                                        <option value="other">Others</option>
+                                    </select>
+                                </div>
+        
+                                <div class="input-field">
+                                    <label>Contact Number<span class="start">*</span> </label>
+                                    <input type="number" placeholder="Enter contact number" min="999999999" required>
+                                </div>
+                            </div>
+                            <div class="fields">
+                               
+        
+                                <div class="input-field">
+                                    <label>City<span class="start">*</span> </label>
+                                    <input type="text" placeholder="Enter your city" required>
+                                </div>
+                                 <div class="input-field">
+                                    <label>Message<span class="start">*</span> </label>
+                                    <textarea name="ta" id="ta" >Enter Message</textarea>
+                                </div>
+
+                            </div>
+                        </div><br>
+                           <center><button class="nextBtn" href="#">
+                              <span class="btnText">Send</span>
+                           </button></center> 
+                            </div>
+                        <center><h1 class="addr">Contact:</h1><br>
+                            <h3 class="addr">+91 123456789 <br> <a href="#" id="conf_email">conference@msec.org</a> <br> No:01,XYZ Street,</h3>
+                            <h3 class="addr">Chennai-600024</h3>
+                            <h3 class="addr">TamilNadu</h3><br></center>
+                </form>     
+          </center>
+        </div> 
+            <script src="script.js"></script>
+  <div class="footer">
+    <div id="con">
+      <h3><a href="#" target="" ><i class="fa-brands fa-youtube"></i> Youtube</a></h3>
+      <h3><a href="#" target="" ><i class="fa-brands fa-square-instagram"></i> Instagram</a></h3>
+      <h3><a href="#" target="" ><i class="fa-brands fa-linkedin"></i> Linkedin</a></h3>
+      <h3><a href="#" target="" ><i class="fa-brands fa-facebook"></i> Facebook</a></h3>
+      <h3><a href="#" target="" ><i class="fa-brands fa-twitter"></i> Twitter</a></h3>
+    </div>
+    <div id="foot">
+      <h4 id="add">363, Arcot Road, Kodambakkam, Chennai - 24</h4>
+      <h5>&copy; 2023 All rights Reserved | Page Designed For the Competition</h5>
+    </div>
+  </div>
+</body>
+</html>
